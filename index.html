@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Muhammad Osama | Assignment 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar p-0 bg-dark navbar-expand-lg" data-bs-theme="dark">
+      <div class="container">
+        <div
+          class="bg-warning d-flex justify-content-between align-items-center header-left-container"
+        >
+          <div class="d-flex align-items-center">
+            <i class="bi bi-list"></i>
+            <span class="category-text ms-1">Categories</span>
+          </div>
+          <div>
+            <i class="bi bi-chevron-down down-icon"></i>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a
+                class="nav-link nav-text active text-warning"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text text-white" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text text-white" href="#">Shop Detail</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-text dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-text text-white" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center mb-2 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-heart-fill text-warning heart-icon"></i>
+              <div class="count-container">0</div>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+              <i class="bi bi-cart-fill text-warning cart-icon"></i>
+              <div class="count-container">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div
+            style="
+              background-image: url('./images/carousel1.png');
+              background-size: cover;
+              background-position: center;
+              height: 370px;
+            "
+            class="d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1 class="text-white main-carousel-heading">MEN FASHION</h1>
+            <p class="w-75 text-white text-center">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              aut adipisci similique debitis iste sint.
+            </p>
+            <div class="border border-white text-white mt-3 main-carousel-btn">
+              Show Now
+            </div>
+
+            <div
+              style="margin-top: 100px"
+              class="d-flex align-items-center justify-content-center gap-2"
+            >
+              <div class="bg-white" style="width: 40px; height: 15px"></div>
+              <div
+                class="border border-white"
+                style="width: 15px; height: 15px"
+              ></div>
+              <div
+                class="border border-white"
+                style="width: 15px; height: 15px"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <div class="row">
+            <div class="col-md-12 col-6">
+              <div
+                style="
+                  background-image: url('./images/carousel2.png');
+                  background-size: cover;
+                  background-position: center;
+                  height: 173px;
+                "
+                class="d-flex justify-content-center align-items-center flex-column mt-md-0 mt-4"
+              >
+                <span class="text-white text-center mb-1">Save 20%</span>
+                <h4 class="text-center text-white">Special Offer</h4>
+
+                <div class="text-dark bg-warning small-carousel-btn">
+                  Show Now
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-6">
+              <div
+                style="
+                  background-image: url('./images/carousel3.png');
+                  background-size: cover;
+                  background-position: center;
+                  height: 173px;
+                  margin-top: 24px;
+                "
+                class="d-flex justify-content-center align-items-center flex-column"
+              >
+                <span class="text-white text-center mb-1">Save 20%</span>
+                <h4 class="text-center text-white">Special Offer</h4>
+
+                <div class="text-dark bg-warning small-carousel-btn">
+                  Show Now
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT CARDS -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="about-card bg-white mb-4">
+            <img
+              style="width: 24px; height: 24px"
+              src="/images/tick.png"
+              alt=""
+            />
+            <span class="ms-1">Quality Products</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="about-card bg-white mb-4">
+            <img
+              style="width: 24px; height: 24px"
+              src="/images/ship.png"
+              alt=""
+            />
+            <span class="ms-1">Free Shipping</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="about-card bg-white mb-4">
+            <img
+              style="width: 24px; height: 24px"
+              src="/images/return.png"
+              alt=""
+            />
+            <span class="ms-1">14-Day Return</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="about-card bg-white mb-4">
+            <img
+              style="width: 24px; height: 24px"
+              src="/images/phone.png"
+              alt=""
+            />
+            <span class="ms-1">24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items-center">
+            <h4 style="font-weight: 600">CATEGORIES</h4>
+            <hr class="flex-grow-1 ms-3" style="border: 1px dashed #000000b3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shoes.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shirt.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/beauty.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/camera.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shirt.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/beauty.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/camera.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shoes.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/camera.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shoes.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/shirt.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="category-card bg-white d-flex align-items-center mb-4">
+            <img
+              style="width: 70px; height: 70px; object-fit: contain"
+              src="/images/beauty.png"
+              alt=""
+            />
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <span style="font-size: 14px; font-weight: 600" class="mb-1"
+                >Product Name</span
+              >
+              <span style="font-size: 10px" class="text-muted"
+                >100 Products</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURED PRODUCTS -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items-center">
+            <h4 style="font-weight: 600; text-transform: uppercase">
+              Featured Products
+            </h4>
+            <hr class="flex-grow-1 ms-3" style="border: 1px dashed #000000b3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/shoes1.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/shirt1.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-half text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/watch.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-half text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/belt.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/wallet.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/perfume.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/lamp.webp"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/bag.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BANNERS -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+          <div
+            style="
+              background-image: url('./images/carousel2.png');
+              background-size: cover;
+              background-position: center;
+              height: 230px;
+            "
+            class="d-flex justify-content-center align-items-center flex-column mt-md-0 mt-4 mb-4"
+          >
+            <span class="text-white text-center mb-1">Save 20%</span>
+            <h4 class="text-center text-white">Special Offer</h4>
+
+            <div class="text-dark bg-warning small-carousel-btn">Show Now</div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div
+            style="
+              background-image: url('./images/carousel3.png');
+              background-size: cover;
+              background-position: center;
+              height: 230px;
+            "
+            class="d-flex justify-content-center align-items-center flex-column mt-md-0 mt-4 mb-4"
+          >
+            <span class="text-white text-center mb-1">Save 20%</span>
+            <h4 class="text-center text-white">Special Offer</h4>
+
+            <div class="text-dark bg-warning small-carousel-btn">Show Now</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECENT PRODUCTS -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items-center">
+            <h4 style="font-weight: 600; text-transform: uppercase">
+              Recent Products
+            </h4>
+            <hr class="flex-grow-1 ms-3" style="border: 1px dashed #000000b3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/shoes1.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/shirt1.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-half text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/watch.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-half text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/belt.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/wallet.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/perfume.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/lamp.webp"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="product-card bg-white mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                style="width: 150px; height: 150px; object-fit: contain"
+                src="/images/bag.png"
+                alt=""
+              />
+              <span class="mt-1 text-center">Product Name Goes here</span>
+              <div class="d-flex align-items-center mt-1">
+                <p
+                  style="font-size: 14px; font-weight: 600"
+                  class="me-2 p-0 m-0"
+                >
+                  $ 123.00
+                </p>
+                <p class="p-0 m-0" style="font-size: 12px; color: gray">
+                  <s>$ 123.00</s>
+                </p>
+              </div>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-1 mb-3"
+              >
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star-fill text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+
+                <i
+                  style="font-size: 14px"
+                  class="bi bi-star text-warning me-1"
+                ></i>
+                <span style="font-size: 12px" class="text-muted">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPANIES CARDS -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: contain"
+              src="/images/companylogo1.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: contain"
+              src="/images/companylogo2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: cover"
+              src="/images/companylogo3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: contain"
+              src="/images/companylogo4.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: cover"
+              src="/images/companylogo5.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div
+            class="campany-card bg-white d-flex justify-content-center align-items-center mb-4 py-4"
+          >
+            <img
+              style="width: 100px; height: 100px; object-fit: contain"
+              src="/images/companylogo6.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid bg-dark mt-5">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Get In Touch</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Quick Shop</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">My Account</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5 class="text-white">Subscribe to our newsletter</h5>
+                <p class="text-white">
+                  Monthly digest of what's new and exciting from us.
+                </p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-warning" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <div class="d-flex flex-column">
+              <p class="text-white">
+                Made by Muhammad Osama with
+                <i class="bi bi-heart-fill text-warning"></i>
+              </p>
+              <p class="text-white">
+                © 2025 Company, Inc. All rights reserved.
+              </p>
+            </div>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <i class="bi bi-twitter text-warning"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-instagram text-warning"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-facebook text-warning"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-linkedin text-warning"></i>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
